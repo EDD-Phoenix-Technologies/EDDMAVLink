@@ -36,7 +36,7 @@ async def print_position(drone):
     async for position in drone.telemetry.position():
         print(position)
 
-async def print_date(dron):
+# async def print_date(dron):
 
 
 
